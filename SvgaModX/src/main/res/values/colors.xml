@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="unselect_text_color">#C5C5C5</color>
+    <color name="unfill_steps_color">#53575E</color>
+    <color name="fill_steps_color">#41E1D5</color>
+    <color name="unfulfill_progress">#818181</color>
+    <color name="fulfill_progress">#31C7BC</color>
+    <color name="change_due_shape_color">#FF9790</color>
+    <color name="change_due_none_color">#DEF8C5</color>
+    <color name="error_color">#FF1100</color>
+    <color name="paid_color">#00C56C</color>
+    <color name="secondary_color">#41E1D5</color>
+    <color name="secondary_color_opaque">#8041E1D5</color>
+    <color name="new_secondary_color">#008279</color>
+    <color name="dark_gray_color">#242528</color>
+    <color name="transparent">#00000000</color>
+</resources>
