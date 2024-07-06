@@ -81,7 +81,7 @@ class SvgaScreenDialog : DialogFragment() {
 
 
         val parser = SVGAParser(this.requireContext())
-        val url = "https://github.com/yyued/SVGA-Samples/blob/master/posche.svga?raw=true"
+        val url = Util.url
         parser.decodeFromURL(URL(url), object : SVGAParser.ParseCompletion {
             override fun onComplete(videoItem: SVGAVideoEntity) {
                 svgaImageView?.setVideoItem(videoItem)

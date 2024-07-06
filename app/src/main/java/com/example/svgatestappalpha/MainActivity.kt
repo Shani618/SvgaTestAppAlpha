@@ -20,7 +20,8 @@ class MainActivity : AppCompatActivity(), SvgaAnimationListener {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        Util.setSVGAParameters( 800, 800, true)
+        var url = "https://github.com/yyued/SVGA-Samples/blob/master/posche.svga?raw=true"
+        Util.setSVGAParameters( url, 800, 800, true)
         val dialog = SvgaScreenDialog()
         dialog.setSvgaAnimationListener(this)
         dialog.show(supportFragmentManager, "SvgaScreenDialog")
